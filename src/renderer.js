@@ -30,7 +30,7 @@ RR.Renderer = (function () {
 
     render(game, info) {
       const ctx = this.ctx;
-      this.time += 1 / C.FPS;
+      this.time = performance.now() / 1000;  // tempo reale: lampeggi uguali a ogni refresh rate
       ctx.save();
       if (game.shake > 0) {
         ctx.translate(Math.round((Math.random() - 0.5) * 4), Math.round((Math.random() - 0.5) * 4));
