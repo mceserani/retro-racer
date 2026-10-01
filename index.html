@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="Retro Racer: gioco arcade di corse in stile anni '80.">
+  <title>Retro Racer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="screen">
+    <canvas id="game" width="320" height="240" aria-label="Retro Racer, area di gioco"></canvas>
+    <div class="crt" aria-hidden="true"></div>
+  </main>
+  <noscript>
+    <p class="noscript">Retro Racer richiede JavaScript abilitato nel browser.</p>
+  </noscript>
+
+  <!-- Script classici (non moduli ES): il gioco funziona anche aprendo il file con doppio clic. -->
+  <script src="src/config.js"></script>
+  <script src="src/utils.js"></script>
+  <script src="src/font.js"></script>
+  <script src="src/track.js"></script>
+  <script src="src/sprites.js"></script>
+  <script src="src/audio.js"></script>
+  <script src="src/input.js"></script>
+  <script src="src/game.js"></script>
+  <script src="src/renderer.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>

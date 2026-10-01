@@ -1,0 +1,13 @@
+{
+  "name": "retro-racer",
+  "version": "1.0.0",
+  "description": "Gioco arcade di corse automobilistiche in stile retro (pseudo-3D) per browser.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
